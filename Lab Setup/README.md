@@ -83,27 +83,71 @@ You can create your own virtual machine using Xubuntu or Ubuntu MATE. These are 
 - **Avoid starting directly with Kali Linux, as it is tailored for advanced tasks and may be overwhelming for beginners**.
 
 ---
+### 5. Networking Configuration (CRITICAL)
+Network Mode: Host-Only Adapter
+Why?
+Isolated lab
+No internet exposure
+Safe attack simulation
+Example Topology:
+[ Kali Linux ] ↔ [ Metasploitable ] ↔ [ Windows 10 ]
 
-## Feedback and Contribution
+6. Blue Team / SOC Tools (Optional but Powerful)
+Install on Windows VM
+Tool	Purpose
+Splunk Free	SIEM, log analysis
+Sysmon	Advanced Windows logging
+Elastic Stack	Threat detection
+OSSEC	Host-based IDS
 
-If you encounter issues or have suggestions for improving this guide, please feel free to open an issue or submit a pull request.
+7. Practice Platforms (Cloud-Based – No Risk)
+Use alongside your lab:
+Platform	Focus
+TryHackMe	Beginner → SOC → Pentest
+Hack The Box	Intermediate / Advanced
+CyberDefenders	Blue-team labs
+OverTheWire	Linux fundamentals
 
----
 
-## 📬 Community Support & Updates
 
-Need help or support during the challenge? Connect with the community and stay updated via the following platforms:
 
-### Join the Discussion
-- **Discord (Main Source of Support)**: [discord.gg/bFkdWjgCdF](https://discord.gg/bFkdWjgCdF) 🎮
 
-### Stay Updated
-- **Instagram**:
-  - [@hack_with_vyshu](https://Instagram.com/hack_with_vyshu) 📸
-  - [@thecyberrange](https://www.instagram.com/thecyberrange/) 📸
-  - [@realsector21](https://www.instagram.com/realsector21/) 📸
-- **LinkedIn**:
-  - [Vaishnavu C V](https://www.linkedin.com/in/vaishnavucv/) 💼
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 🌍 Spread the Word!
 
