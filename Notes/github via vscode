@@ -4,24 +4,28 @@ check `git --version // see if git is downloded or download github
 next if the git is downloaded  then use this command 
 git config --global user.name "Your Name" // enter your github user name 
 git config --global user.email "your.email@example.com" // enter your email address linked with github 
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:USERNAME/REPOSITORY.git // it will be in repo created .
+git push -u origin main
+
 for verifcation use
 ``` git config --global --list``` shows your username and email 
-set up ssh key if you are using for first time 
+
+## set up ssh key if you are using for first time 
 use command :ssh-keygen -t ed25519 -C "your_email@example.com" // ssh key will bw genrated 
 you see files named id_ed25519.pub now copy the ssh key and go to github<settings <deploy keys<add deploy key <add the title and past the ssh key and save it .
 ssh key setup done .
 
  Verify the Connection:ssh -T git@github.com
 You should see: "Hi [YourUsername]! You've successfully authenticated...
-initilize github  by 
-git init
-use this command :git remote add origin <github repo link >
-to chek its link with github use : git remote -v
- Update Your Remote URL:
-git remote set-url origin git@github.com:USERNAME/REPOSITORY.git // it will be in repo created .
 
 // stetup done now you can start coding 
 
-now basic commands  there are 2 methods 
+# now basic commands  there are 2 methods 
 1 cli (terminal )
 2 
